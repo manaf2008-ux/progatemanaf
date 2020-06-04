@@ -1,0 +1,201 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px/1.5;
+  margin: 0;
+  padding: 0;
+  background-color: #FAFAFF;
+}
+
+
+/* Global */
+.container{
+  width: 99%;
+  margin: auto;
+  overflow: hidden;
+}
+
+
+/* HEADER ATAS KECIL */
+header{
+  font-size: 11px;
+  background-color: #C2FFD7;
+}
+header a:link{
+  color: #4D9894;
+  text-decoration: none;
+  padding: 1px 5px;
+}
+header a:visited{
+  color: #003399;
+}
+
+header a:hover {
+  color: #003399
+}
+
+header ul  {
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.link_header li {
+  display: inline;
+}
+
+#Bahasa_Indonesia, #English {
+  float:right;
+  padding-top: 5px;
+}
+
+#petunjuk_penggunaan, #tentang_geokatalis {
+  float: left;
+  padding-top: 3.5px;
+}
+
+/* LOGO KABUPATEN DAN LOGIN */
+#logo_kabupaten {
+  }
+    /* logo */
+.Logo {
+  align-items: center;
+  width: 150px;
+  height: 120px;
+  display: inline-block;
+  margin:20px 20px 20px 0px;
+}
+.Logo img {
+  display: block;
+  padding: 0px 5px 0px 45px;
+  width: 56px;
+  height: 74px;
+}
+.Logo p {
+  color: #4D9894;
+  margin: 5px 5px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+  /* Login */
+#login{
+  text-decoration: none;
+  position: absolute;
+  top: 72px;
+  right: 60px;
+  font-size: 12px;
+  padding: 5px;
+  font-weight: bolder;
+  color: #4D9894;
+  }
+#login:hover{
+    position: absolute;
+    top: 72px;
+    right: 60px;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 5px;
+    color: #003399;
+}
+#icon_login {
+  position: absolute;
+  top: 70px;
+  right: 30px;
+  width: 27px;
+  height: 27px;
+}
+
+/* SEARCH ENGINE */
+#Searchengine{
+  margin: auto;
+}
+#Searchengine img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 415px;
+  height: 169px;
+}
+
+#Searchengine form{
+  padding: 0px;
+}
+
+#Searchengine input{
+  display: block;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #ccc;
+  width: 538px;
+  height: 17px;
+  padding: 5px 8px;
+}
+#Searchengine a{
+  position: relative;
+  display: block;
+  font-size: 12px;
+  color: #4D9894;
+  margin-left: 65%;
+}
+#Searchengine a:hover{
+  position: relative;
+  display: block;
+  font-size: 12px;
+  color: #003399;
+  margin-left: 765;
+}
+#Searchengine button{
+  text-align: center;
+  border: none;
+  text-decoration: none;
+  border-radius: 4px;
+  background-color: #CCCCFF;
+  margin: 20px 60px;
+  width: 200px;
+  height: 28px;
+  cursor: pointer;
+  font-weight: bolder;
+  font-family: Arial;
+}
+#Searchengine .butt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 30px solid #FAFAFF;
+  width: 50%;
+}
+
+/* Credits, Legal, Hubungi Kami */
+#Kontak {
+  margin-top: 200px;
+  background-color: #E3E3E3;
+}
+    /* logo sinjai */
+      #logo_sinjai{
+        align-items: center;
+        text-align: center;
+        width: 150px;
+        height: 200px;
+        display: inline-block;
+        margin: 40px;
+        border: 1px solid black;
+      }
+      #logo_sinjai img{
+        position: relative;
+        left: 35px;
+        width: 68px;
+        height: 88px;
+        display: block;
+        padding: 0px 5px 0px;
+      }
+
+      #logo_sinjai p{
+        color: #4D9894;
+        margin: 5px 5px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: bold;
+      }
